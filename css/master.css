@@ -39,6 +39,7 @@ nav a, .nav-items a{
   padding: 14px 16px;
   text-decoration: none;
   transition: 0.5s;
+  z-index: 100;
 }
 .logo{
   position: relative;
@@ -126,6 +127,46 @@ nav a:hover, .dropdown:hover .dropbtn{
 .homeward-login{
   background-color: white;
   border: 3px solid #163D76;
+}
+.faq-header{
+  text-align: center;
+  padding-top: 30px;
+}
+.body-cta{
+  text-align: center;
+  display: inline-flex;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.faq a{
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 600;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #03CEA4;
+  color: white;
+  transition: 0.3s;
+}
+.faq a:hover{
+  background-color: #163D76;
+  color: #03CEA4;
+}
+.contact-us a{
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 600;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #03CEA4;
+  color: white;
+  transition: 0.3s;
+}
+.contact-us a:hover{
+  background-color: #163D76;
+  color: #03CEA4;
 }
 footer p{
   font-size: 14px;

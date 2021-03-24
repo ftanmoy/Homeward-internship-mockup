@@ -9,6 +9,9 @@ h4{
 p{
   color: black;
 }
+a{
+  text-decoration: none;
+}
 .steps{
   text-align: center;
 }
@@ -40,10 +43,4 @@ p{
 .header img{
   padding-top: 100px;
   width: 20%;
-}
-.body-cta{
-  text-align: center;
-  display: flex;
-  border: 2px solid blue;
-  padding-top: 50px;
 }
