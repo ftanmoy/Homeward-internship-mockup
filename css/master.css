@@ -1,0 +1,214 @@
+body{
+  width: 1440px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  font-size: 45px;
+  font-weight: 600;
+}
+h2{
+  font-size: 40px;
+  font-weight: 600;
+}
+h3{
+  font-size: 35px;
+  font-weight: 600;
+}
+h4{
+  font-size: 25px;
+  font-weight: 600;
+}
+p{
+  font-size: 20px;
+  font-weight: normal;
+}
+nav{
+  width: inherit;
+  overflow: hidden;
+  display: inline-flex;
+  background-color: white;
+  position: fixed;
+  z-index: 100;
+}
+nav a, .nav-items a{
+  font-size: 16px;
+  font-weight: 600;
+  color: #163D76;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.logo{
+  position: relative;
+  left: 8%;
+  padding: 10px 0;
+}
+.dropdown{
+  overflow: hidden;
+}
+.dropdown .dropbtn{
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  color: #163D76;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.5s;
+}
+nav a:hover, .dropdown:hover .dropbtn{
+  color: #03CEA4;
+}
+.dropdown-content{
+  font-size: 14px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content a{
+  font-size: 14px;
+  float: none;
+  color: white;
+  background-color: #163D76;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: 0.3s;
+}
+.dropdown-content a:hover{
+  background-color: white;
+  color: #163D76;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.nav-items{
+  display: flex;
+  padding: 30px 0;
+  margin-left: 350px;
+  align-content: center;
+}
+.cta-buttons-nav{
+  position: relative;
+  right: 0%;
+  display: inline-grid;
+  margin-left: 50px;
+}
+.cta-buttons-nav a{
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 600;
+  padding: 10px 30px;
+  margin-top: 5%;
+  border: none;
+  border-radius: 10px;
+}
+.cta-buttons-nav a:last-child{
+  margin-bottom: 5%;
+}
+.homeward-signup{
+  background-color: #03CEA4;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.homeward-signup:hover{
+  background-color: #163D76;
+  color: #03CEA4;
+}
+.homeward-login{
+  background-color: white;
+  border: 3px solid #163D76;
+}
+footer p{
+  font-size: 14px;
+}
+.footer-top-container{
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  font-size: 16px;
+  color: #163D76;
+}
+.footer-top-container ul{
+  padding-left: 0;
+}
+.footer-top-container ul li{
+  list-style: none;
+  padding-left: 0;
+  padding-top: 10px;
+}
+.footer-top-container ul li a{
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer-top-container ul li a:hover{
+  color: #03CEA4;
+}
+.about{
+  width: 25%;
+  text-align: center;
+}
+.about p{
+  font-size: 14px;
+  margin: 16px;
+}
+.about img{
+  margin-top: 20px;
+  width: 70%;
+}
+.quick-links{
+  width: 25%;
+  padding-left: 3%;
+  text-align: left;
+}
+.quick-links h4{
+  margin-top: 20px;
+}
+.resources{
+  width: 25%;
+  padding-left: 3%;
+  text-align: left;
+}
+.resources h4{
+  margin-top: 20px;
+}
+.ctas{
+  width: 25%;
+}
+.social{
+  margin: 20px 0px 39.9px;
+}
+.social a{
+  color: #163D76;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 15px;
+}
+.download ul li{
+  margin-top: 40px;
+}
+.download ul li a{
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 600;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #03CEA4;
+  color: white;
+}
+.download ul li a:hover{
+  background-color: #163D76;
+  color: #03CEA4;
+}
